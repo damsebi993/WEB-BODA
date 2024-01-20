@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* HEADER */
+header{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    /* padding: 0.5%; */
+    margin-left: 4%;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    /* padding: 0.5%; */
+    margin-right: 4%;
+    margin-top: 0.9%;
+    font-size: 20px;
+}
+nav div{
+    margin-right: 2%;
+}
+/* color enlaces */
+header a:visited{
+    color: white;
+}
+header a:link{
+    color: white;
+    text-decoration: none;
+}
+header a {
+    color: white;
+}
+/* CAJA 1 */
+.caja1{
+    background-image: url(../images/home-bg.jpg);
+    height: 770px;
+}
+.textcaja1{
+    padding-top: 15%;
+    padding-left: 10%;   
+    font-size: 30px;
+    
+}
+.textcaja1 p{
+    margin: 0;  
+}
+.textcaja1 h1{
+    color: #130F40;
+    margin: 0;
+}
+.boton {
+    border-color: #130F40;
+    padding: 10px 40px; 
+    background-color: white;
+}
+
+/* CAJA 2 */
+.caja2{
+    background-color: #130F40;
+    padding-bottom: 2%;
+    
+}
+.top{
+    /* border: 1px solid black; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 2%;
+    text-align: center;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+
+.caja2primero{
+    display: flex;
+    padding: 5%;
+    gap: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.number{
+    font-size: 60px;
+    margin: 0;
+    color: red;
+}
+.h2color{
+    margin: 0;
+    color: #130F40;
+    font-size: 30px;
+}
+.textlo{
+    margin: 0;
+    color: gray;
+    margin-bottom: 2%;
+}
+/* CAJA 2 SEGUNDO */
+
+.topwedding{
+    text-align: center;
+    
+}
+.topwedding h1{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+.container {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px;
+    margin-left: 9%;
+    margin-right: 9%; 
+}
+.imggrid img{
+    width: 100%;
+    border-radius: 4%;
+}
+.container2{
+    margin-top: 1%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.clientsimg{
+    width: 90%;
+    height: 300px;
+    border: 20px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.container2 h2{
+    color: white;
+}
+.textcontainer2{
+    font-style: italic;
+    color: white;
+}
+.dividerimg{
+    height: 950px;
+}
+/* ESTILOS GRID */
+.imggrid {
+    position: relative;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 10px;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.h2color, .overlay p, .boton {
+    margin: 10px;
+}
+
+/* FORMUALRIO */
+.forminputs {
+    width: 97%; 
+    /* margin: 0 auto; Centra el formulario en la página */ 
+    padding: 2%;
+}
+
+.inputs {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 1%; 
+}
+
+
+.inputs input {
+    width: 48%; 
+    padding: 0.7%;
+    border: 1px solid #ccc; 
+}
+
+textarea {
+    width: 98.5%; 
+    padding: 0.7%; 
+    border: 1px solid #ccc; 
+    height: 120px;
+    margin-bottom: 2%;
+}
+.rojo{
+    color: red;
+}
+.formulario{
+    margin-left: 15%;
+    margin-right: 16%;
+    background-color: white; 
+    border-radius: 5px;
+    margin-top: 2%;
+    
+}
+input:focus {
+    outline: none;
+    border: 1px solid red; 
+}
+textarea:focus {
+    outline: none;
+    border: 1px solid red; 
+}
+/* FOOTER */
+footer{
+    font-size: 20px;
+    /* padding: 1%; */
+    text-align: center;
+    background-color: white;
+    
+}
+  
